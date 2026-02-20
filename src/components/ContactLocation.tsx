@@ -63,7 +63,7 @@ export function ContactLocation() {
                         viewport={{ once: true }}
                         className="text-4xl md:text-6xl font-black uppercase tracking-tighter leading-[0.9]"
                     >
-                        ENCUÉNTRANOS EN EL <br />
+                        BENEFICIOS EXCLUSIVOS EN EL <br />
                         <span className="text-transparent bg-clip-text bg-gradient-to-r from-racing-red to-white italic">CORAZÓN DE LOJA</span>
                     </motion.h2>
                 </div>
@@ -101,7 +101,7 @@ export function ContactLocation() {
                                     </div>
                                 </div>
                                 <p className="text-gray-500 text-[11px] leading-relaxed mb-4">
-                                    Visítanos en el corazón comercial de Loja. <span className="text-white/70">Cerca del Banco de Loja y Cooperativa JEP</span> — gestiona tu crédito y llévate tu bicicleta el mismo día.
+                                    Maximiza tu inversión con hasta el 15% de descuento directo y diferidos sin intereses con tarjetas Banco de Loja y JEP.
                                 </p>
                                 <div className="flex items-center gap-3">
                                     <div className="flex items-center gap-2 text-[9px] font-black uppercase tracking-widest text-racing-red">
@@ -207,7 +207,7 @@ export function ContactLocation() {
                                 name="message"
                                 value={formData.message}
                                 onChange={handleChange}
-                                placeholder="Cuéntanos más sobre lo que necesitas..."
+                                placeholder="¿Listo para subir de nivel? Cuéntanos qué buscas: Asesoría en compra, cita técnica o inscripción a eventos."
                                 rows={4}
                                 className="w-full bg-white/5 border border-white/10 rounded-xl px-6 py-4 text-white text-sm font-medium placeholder:text-gray-600 focus:outline-none focus:border-racing-red focus:bg-white/[0.03] transition-all duration-300 resize-none"
                             />

@@ -110,7 +110,7 @@ export function ProductGallery() {
     const filteredProducts = showAll ? filtered.slice(6, 12) : filtered.slice(0, 6);
 
     const whatsappLink = (productName: string) => {
-        const message = encodeURIComponent(`Hola Sur Bike, me interesa el producto ${productName}`);
+        const message = encodeURIComponent(`Hola Sur Bike, deseo consultar la disponibilidad y opciones de financiamiento para este modelo: ${productName}`);
         return `https://wa.me/593900000000?text=${message}`; // Placeholder phone
     };
 
@@ -123,10 +123,10 @@ export function ProductGallery() {
                     <div className="max-w-2xl">
                         <h4 className="text-racing-red font-black uppercase tracking-[0.4em] text-xs mb-4">Official Dealer</h4>
                         <h2 className="text-4xl md:text-6xl font-black uppercase tracking-tighter">
-                            EXCLUSIVE <span className="text-transparent bg-clip-text bg-gradient-to-r from-white to-gray-500 italic">BOUTIQUE</span> GALLERY
+                            EL GARAJE <span className="text-transparent bg-clip-text bg-gradient-to-r from-white to-gray-500 italic">DE LOS SUEÑOS</span>
                         </h2>
                         <p className="mt-6 text-gray-400 font-light max-w-xl">
-                            Equipamiento de alto nivel seleccionado para dominar la Montaña Arrugada. Distribuidores oficiales de <span className="text-white font-bold underline decoration-racing-red underline-offset-4">Specialized, Fox y Magura</span>.
+                            Specialized Tarmac SL8 “Made in Racing”. Una de las 272 unidades existentes en el mundo, ahora en Loja.
                         </p>
                     </div>
 
@@ -228,18 +228,18 @@ export function ProductGallery() {
                             initial={{ scale: 0.9, y: 20 }}
                             animate={{ scale: 1, y: 0 }}
                             exit={{ scale: 0.9, y: 20 }}
-                            className="bg-[#0a0a0a] w-full max-w-5xl rounded-3xl overflow-hidden border border-white/10 grid grid-cols-1 md:grid-cols-2 relative"
+                            className="bg-[#0a0a0a] w-full max-w-5xl max-h-[90vh] overflow-y-auto rounded-3xl border border-white/10 flex flex-col md:grid md:grid-cols-2 relative"
                             onClick={(e: React.MouseEvent) => e.stopPropagation()}
                         >
                             <button
                                 onClick={() => setSelectedProduct(null)}
-                                className="absolute top-6 right-6 z-30 text-white/50 hover:text-white transition-colors bg-black/20 backdrop-blur-md rounded-full p-2"
+                                className="absolute top-4 right-4 z-40 text-white/50 hover:text-white transition-colors bg-black/40 backdrop-blur-md rounded-full p-2 md:top-6 md:right-6"
                             >
                                 <X size={24} />
                             </button>
 
                             {/* Product Image */}
-                            <div className="relative aspect-square md:aspect-auto overflow-hidden bg-black/50">
+                            <div className="relative aspect-[4/3] md:aspect-auto overflow-hidden bg-black/50 shrink-0">
                                 <div
                                     className="absolute inset-0 bg-cover bg-center hover:scale-125 transition-transform duration-1000 cursor-zoom-in"
                                     style={{ backgroundImage: `url('${selectedProduct.image}')` }}
@@ -247,7 +247,7 @@ export function ProductGallery() {
                             </div>
 
                             {/* Product Content */}
-                            <div className="p-8 md:p-12 flex flex-col justify-center">
+                            <div className="p-6 md:p-12 flex flex-col justify-center">
                                 <div className="inline-flex items-center gap-2 mb-6">
                                     <span className="w-8 h-px bg-racing-red" />
                                     <span className="text-[10px] font-black uppercase tracking-[0.3em] text-racing-red">
@@ -286,8 +286,8 @@ export function ProductGallery() {
                                         Consultar Disponibilidad
                                     </a>
                                     <button className="flex items-center justify-center gap-2 px-8 py-4 bg-white/5 border border-white/10 text-white font-black uppercase tracking-widest text-xs rounded-xl hover:bg-white hover:text-black transition-all duration-300">
-                                        <Info size={16} />
-                                        Comparar
+                                        <ShoppingCart size={16} />
+                                        Comprar Ahora
                                     </button>
                                 </div>
 

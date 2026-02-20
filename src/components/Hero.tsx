@@ -45,17 +45,17 @@ export function Hero() {
                         transition={{ duration: 0.8, delay: 0.2 }}
                         className="text-4xl md:text-7xl lg:text-8xl font-black text-white leading-[0.9] tracking-tighter mb-6 uppercase"
                     >
-                        RENDIMIENTO <br />
-                        <span className="text-racing-red">SIN CONCESIONES</span>
+                        Venta de Bicicletas de Alta Gama en Loja: <br />
+                        <span className="text-racing-red">Rendimiento antes de precio</span>
                     </motion.h1>
 
                     <motion.p
                         initial={{ opacity: 0, y: 20 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.8, delay: 0.4 }}
-                        className="text-base md:text-lg text-gray-300 max-w-xl mb-10 leading-relaxed font-light"
+                        className="text-base md:text-lg text-gray-300 max-w-xl mb-10 leading-relaxed font-light hidden md:block"
                     >
-                        Boutique de alto rendimiento en Loja. Distribuidor oficial de <span className="text-white font-bold underline decoration-racing-red underline-offset-4">Specialized, Fox y Magura</span>. Servicio técnico certificado para ciclistas que buscan la máxima precisión en cada kilómetro.
+                        Domina la Montaña Arrugada con la tecnología de Specialized. Somos el epicentro del ciclismo profesional en el sur del Ecuador, ofreciendo exclusividad y soporte técnico de nivel mundial.
                     </motion.p>
 
                     {/* Realistic CTAs */}
@@ -67,12 +67,12 @@ export function Hero() {
                     >
                         <button className="group relative px-8 py-4 bg-racing-red text-white font-black uppercase tracking-widest text-sm rounded-sm overflow-hidden transition-all duration-300 hover:shadow-[0_0_20px_rgba(227,6,19,0.5)]">
                             <span className="relative z-10 flex items-center gap-2">
-                                Explorar Inventario <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+                                Explorar Inventario de Élite <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
                             </span>
                         </button>
 
                         <button className="px-8 py-4 bg-transparent border border-white/30 text-white font-black uppercase tracking-widest text-sm rounded-sm hover:bg-white hover:text-black transition-all duration-300 backdrop-blur-sm">
-                            Inscribirme en la Copa
+                            Inscripciones Copa Banco de Loja
                         </button>
                     </motion.div>
 

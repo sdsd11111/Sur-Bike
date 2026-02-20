@@ -40,8 +40,8 @@ export function CommunityLegacy() {
                         viewport={{ once: true }}
                         className="text-4xl md:text-6xl font-black uppercase tracking-tighter leading-[0.9] mb-6"
                     >
-                        MÁS QUE UNA TIENDA, <br />
-                        <span className="text-transparent bg-clip-text bg-gradient-to-r from-racing-red to-white italic">UNA TRADICIÓN</span>
+                        LIDERANDO LA CULTURA <br />
+                        <span className="text-transparent bg-clip-text bg-gradient-to-r from-racing-red to-white italic">CICLISTA POR 22 AÑOS</span>
                     </motion.h2>
                     <motion.p
                         initial={{ opacity: 0, y: 20 }}
@@ -68,10 +68,10 @@ export function CommunityLegacy() {
                             <Trophy size={300} className="text-white" />
                         </div>
                         <div className="relative z-10">
-                            <span className="text-racing-red font-black text-6xl md:text-8xl italic block mb-4 tracking-tighter">22 AÑOS</span>
-                            <h3 className="text-2xl md:text-3xl font-black uppercase tracking-tighter text-white mb-4">Liderando la Copa Banco de Loja</h3>
+                            <span className="text-racing-red font-black text-6xl md:text-8xl italic block mb-4 tracking-tighter">COPA BANCO LOJA</span>
+                            <h3 className="text-2xl md:text-3xl font-black uppercase tracking-tighter text-white mb-4">Travesía Ruta de la Longevidad</h3>
                             <p className="text-gray-400 font-light text-sm max-w-lg leading-relaxed">
-                                Más de dos décadas organizando el evento más prestigioso de la región. Una historia de resistencia, comunidad y superación constante en los terrenos más exigentes.
+                                Organizadores de la Copa Banco de Loja "Travesía Ruta de la Longevidad", el evento más importante del calendario anual.
                             </p>
                         </div>
                     </motion.div>
@@ -111,9 +111,9 @@ export function CommunityLegacy() {
                             <Users className="text-racing-red" size={40} />
                             <span className="text-white/20 font-black text-4xl">02</span>
                         </div>
-                        <h3 className="text-3xl font-black uppercase tracking-tighter text-white mb-4 italic">+5,000 Participantes</h3>
+                        <h3 className="text-3xl font-black uppercase tracking-tighter text-white mb-4 italic">Rutas Emblemáticas</h3>
                         <p className="text-gray-400 font-light text-sm leading-relaxed">
-                            Recorriendo cada año las rutas emblemáticas desde La Tebaida hasta Vilcabamba y Malacatos.
+                            Conectamos Yangana, Vilcabamba y Malacatos a través de los senderos ancestrales "chaquiñanes".
                         </p>
                     </motion.div>
 
@@ -143,10 +143,10 @@ export function CommunityLegacy() {
                         <div className="absolute top-0 right-0 p-8 opacity-10">
                             <ShieldCheck size={100} className="text-racing-red" />
                         </div>
-                        <h4 className="text-white font-black uppercase tracking-[0.2em] text-[10px] mb-4">Protección Total</h4>
-                        <h3 className="text-2xl font-black uppercase text-white mb-4">SEGURIDAD ANTE TODO</h3>
+                        <h4 className="text-white font-black uppercase tracking-[0.2em] text-[10px] mb-4">Cobertura y Seguridad</h4>
+                        <h3 className="text-2xl font-black uppercase text-white mb-4">EVENTOS CON GARANTÍA</h3>
                         <p className="text-gray-500 font-light text-sm leading-relaxed">
-                            Nuestros eventos incluyen pólizas de seguro de hasta <span className="text-white font-bold">$1,000</span> para cada corredor. Compromiso absoluto con tu integridad.
+                            Eventos con pólizas de seguro de hasta <span className="text-white font-bold">$1,000</span> para que tu única preocupación sea la meta.
                         </p>
                     </motion.div>
 

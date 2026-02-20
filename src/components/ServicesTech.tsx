@@ -77,7 +77,7 @@ export function ServicesTech() {
                         viewport={{ once: true }}
                         className="text-racing-red font-black uppercase tracking-[0.4em] text-xs mb-4"
                     >
-                        Elite Services & Tech Center
+                        Ingeniería de Precisión para tu Máquina
                     </motion.h4>
                     <motion.h2
                         initial={{ opacity: 0, x: -20 }}
@@ -86,8 +86,8 @@ export function ServicesTech() {
                         viewport={{ once: true }}
                         className="text-4xl md:text-6xl font-black uppercase tracking-tighter leading-none"
                     >
-                        INGENIERÍA DE PRECISIÓN <br />
-                        <span className="text-transparent bg-clip-text bg-gradient-to-r from-racing-red to-white/40">PARA TU MÁQUINA</span>
+                        MANTÉN TU BICICLECTA <br />
+                        <span className="text-transparent bg-clip-text bg-gradient-to-r from-racing-red to-white/40">AL NIVEL DE LA COMPETICIÓN</span>
                     </motion.h2>
                 </div>
 
@@ -96,7 +96,7 @@ export function ServicesTech() {
                     <ServiceCard
                         icon={Wrench}
                         title="Taller Especializado"
-                        description="Mantenimiento de suspensiones Fox (retenes y aceite) y purgado profesional de frenos Magura para máxima potencia de frenado."
+                        description="Mantenimiento integral de suspensiones Fox y purgado de sistemas de frenado Magura MT7 Pro."
                         image="/images/workshop-service.jpg"
                         delay={0.3}
                     />
@@ -108,19 +108,18 @@ export function ServicesTech() {
                         delay={0.4}
                     />
                     <ServiceCard
-                        icon={Bike}
-                        title="Alquiler Premium"
-                        description="Bicicletas Specialized de alta gama listas para explorar Vilcabamba y Malacatos. Incluye accesorios de seguridad y guías opcionales."
-                        image="/images/premium-rental.jpg"
-                        delay={0.5}
+                        icon={ClipboardCheck}
+                        title="Diagnóstico GRATIS"
+                        description="Revisión y diagnóstico GRATIS. Identificamos con exactitud las necesidades de tu equipo antes de cada ruta."
+                        image="/images/free-diagnostic.jpg"
+                        delay={0.4}
                     />
                     <ServiceCard
-                        icon={ClipboardCheck}
-                        title="Diagnóstico Pro"
-                        description="Revisión y diagnóstico minucioso para identificar necesidades de repuestos o mejoras en componentes de alta competición."
-                        image="/images/free-diagnostic.jpg"
-                        delay={0.6}
-                        badge="¡SIN COSTO!"
+                        icon={Bike}
+                        title="Alquiler Premium"
+                        description="Experimenta la tecnología Specialized antes de comprar. Alquiler de modelos premium para rutas hacia Vilcabamba y Malacatos."
+                        image="/images/premium-rental.jpg"
+                        delay={0.5}
                     />
                 </div>
 

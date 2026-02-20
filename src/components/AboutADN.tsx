@@ -67,10 +67,10 @@ export function AboutADN() {
                         <div className="relative z-10">
                             <h4 className="text-3xl md:text-5xl font-black uppercase tracking-tight mb-6 leading-none italic">
                                 Forjados en la <br />
-                                <span className="text-racing-red">Montaña Arrugada</span>
+                                <span className="text-racing-red">Geografía de Loja</span>
                             </h4>
                             <p className="text-gray-400 text-sm md:text-lg leading-relaxed max-w-2xl font-light">
-                                La geografía de Loja no es solo nuestro hogar, es nuestro activo más valioso. La cadena montañosa de los Andes, con su topografía accidentada y desafiante, es nuestro campo de pruebas y la inspiración detrás de nuestra búsqueda de la exclusividad técnica.
+                                No somos una tienda convencional; somos una boutique de alto rendimiento diseñada para el terreno técnico y los grandes desniveles de nuestra provincia. Aprovechamos la topografía accidentada que da vida a la "Montaña Arrugada" para ofrecerte equipos que transforman cada desafío en una ventaja competitiva. Nuestra alianza con Specialized nos permite traer a Loja piezas de colección global y tecnología de punta.
                             </p>
                         </div>
                     </motion.div>
